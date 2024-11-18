@@ -51,6 +51,7 @@ header nav ul li a {
   transition: color 0.3s ease;
 }
 
+/* Focus and Hover States for Links */
 header nav ul li a:hover,
 header nav ul li a:focus {
   color: #ffdd57;
@@ -71,6 +72,7 @@ header .menu-icon {
 }
 
 @media (max-width: 768px) {
+  /* Hamburger menu: hide nav and position it when the menu is active */
   header nav ul {
     display: none; /* Hide menu initially */
     flex-direction: column;
