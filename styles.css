@@ -12,6 +12,7 @@ body {
   color: #333;
   background-color: #f4f4f9;
   overflow-x: hidden; /* Prevent horizontal scrolling */
+  padding-top: 80px; /* Add space for the sticky header */
 }
 
 /* Header Section */
@@ -51,7 +52,6 @@ header nav ul li a {
   transition: color 0.3s ease;
 }
 
-/* Focus and Hover States for Links */
 header nav ul li a:hover,
 header nav ul li a:focus {
   color: #ffdd57;
@@ -72,7 +72,6 @@ header .menu-icon {
 }
 
 @media (max-width: 768px) {
-  /* Hamburger menu: hide nav and position it when the menu is active */
   header nav ul {
     display: none; /* Hide menu initially */
     flex-direction: column;
@@ -222,4 +221,27 @@ ol li a:focus-visible {
   ol li img {
     width: 60%;
   }
+}
+
+/* Follow Us Section */
+.follow-us {
+  padding: 30px;
+  background: #6c63ff;
+  text-align: center;
+  color: #fff;
+}
+
+.follow-us a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.follow-us a:hover,
+.follow-us a:focus-visible {
+  color: #ffdd57;
+  outline: 2px solid #ffcc33;
+  outline-offset: 3px;
 }
