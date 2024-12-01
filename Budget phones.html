@@ -1,35 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>TOP 10 SMARTPHONES</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Smartphones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    .section-title {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .smartphone-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .smartphone {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      font-size: 18px;
+      line-height: 1.5;
+      transition: transform 0.3s ease;
+    }
+
+    .smartphone:hover {
+      transform: scale(1.05);
+    }
+
+    .smartphone h3 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .smartphone p {
+      color: #555;
+      margin: 8px 0;
+    }
+
+    .buy-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <h1>BUDGET PHONES:</h1>
-  <div style="font-size: 20px;">
-  <p>1.Apple iPhone 14: $799
-      A15 Bionic chip
-      6.1-inch Retina display
-      Dual-camera system
-      Balanced blend of performance and value</p>
-  <p>2. Apple iPhone 14 Plus: $899
-      A15 Bionic chip
-      6.7-inch Retina display
-      Dual-camera system
-      Larger screen and improved battery life</p>
-  <p>3.Samsung Galaxy A54: $400
-      Exynos 1380 chipset
-      6.4-inch Super AMOLED display
-      Camera system with 50MP main sensor
-      Premium features at a mid-range price</p>
-  <p>4.Google Pixel 7: $599
-      Tensor G2 chip
-      6.3-inch AMOLED display
-      Dual-camera system
-      Powerful and affordable option with AI integration</p>
-  <p>5.Xiaomi Redmi Note 12 Pro: $350
-      MediaTek Dimensity 1080 chipset
-      6.67-inch AMOLED display
-      Quad-camera system with 50MP main sensor
-      High-performance capabilities at an affordable price</p> 
+
+  <header>
+    <h1>Top Budget Smartphones</h1>
+  </header>
+
+  <section>
+    <div class="section-title">Budget Phones</div>
+    <div class="smartphone-list">
+      <div class="smartphone">
+        <h3>1. Apple iPhone 14 - $799</h3>
+        <p><strong>Features:</strong> A15 Bionic chip, 6.1-inch Retina display, Dual-camera system. Balanced blend of performance and value.</p>
+        <a href="https://amzn.to/48Uq9s1" class="buy-btn" target="_blank">Buy on Amazon</a>
+      </div>
+
+      <div class="smartphone">
+        <h3>2. Apple iPhone 14 Plus - $899</h3>
+        <p><strong>Features:</strong> A15 Bionic chip, 6.7-inch Retina display, Dual-camera system. Larger screen and improved battery life.</p>
+        <a href="https://amzn.to/48Uq9s1" class="buy-btn" target="_blank">Buy on Amazon</a>
+      </div>
+
+      <div class="smartphone">
+        <h3>3. Samsung Galaxy A54 - $400</h3>
+        <p><strong>Features:</strong> Exynos 1380 chipset, 6.4-inch Super AMOLED display, 50MP main camera. Premium features at a mid-range price.</p>
+        <a href="https://amzn.to/3UXToVb" class="buy-btn" target="_blank">Buy on Amazon</a>
+      </div>
+
+      <div class="smartphone">
+        <h3>4. Google Pixel 7 - $599</h3>
+        <p><strong>Features:</strong> Tensor G2 chip, 6.3-inch AMOLED display, Dual-camera system. Powerful and affordable option with AI integration.</p>
+        <a href="https://amzn.to/419XxcL" class="buy-btn" target="_blank">Buy on Amazon</a>
+      </div>
+
+      <div class="smartphone">
+        <h3>5. Xiaomi Redmi Note 12 Pro - $350</h3>
+        <p><strong>Features:</strong> MediaTek Dimensity 1080 chipset, 6.67-inch AMOLED display, 50MP Quad-camera system. High performance at an affordable price.</p>
+        <a href="https://amzn.to/3UXToVb" class="buy-btn" target="_blank">Buy on Amazon</a>
+      </div>
     </div>
+  </section>
+
+</body>
 </html>
